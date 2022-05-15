@@ -69,7 +69,7 @@
             <div class="col c-12 m-6 l-6">
                 <h2 class="title">Gấu bông MS Pokemon Squirtle đứng 23cm - Xanh ngọc</h2>
                 <p>Mã sản phẩm: M.E101.NO.22050088-TU</p>
-                <h2 class="price">100,000đ</h2>
+                <h2 class="price">98,000đ</h2>
                 <div class="amount">
                     <span>Số lượng</span>
                     <div class="up-down">
@@ -126,6 +126,9 @@
         let amount = document.querySelector(".amount-input");
         let minus = document.querySelector(".minus");
         let plus = document.querySelector(".plus");
+        amount.onchange = () => {
+            amount.value = Number.parseInt(amount.value) > 0 ? Number.parseInt(amount.value) : 1;
+        }
         minus.onclick = () => {
             amount.value = Number.parseInt(amount.value) > 1 ? Number.parseInt(amount.value) - 1 : 1;
         }
