@@ -102,6 +102,7 @@ body {
 }
 
 #content .item .title {
+    margin-top: 8px;
     text-decoration: none;
     color: #000;
     font-weight: 600;
