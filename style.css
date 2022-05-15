@@ -150,6 +150,10 @@ body {
     color: #fff;
 }
 
+#footer a:hover {
+    color: #e75d74;
+}
+
 #footer ul {
     margin: 0 auto;
 }
