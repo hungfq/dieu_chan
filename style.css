@@ -12,17 +12,17 @@ body {
     margin: 0 !important;
 }
 
-#header {
+#main-header {
     /* display: flex; */
     padding: 20px 0;
     color: palevioletred;
 }
 
-#header .logo {
+#main-header .logo {
     height: 60px;
 }
 
-#header input {
+#main-header input {
     width: 100%;
     overflow: hidden;
     border: 2px solid #ffb0bd;
@@ -32,18 +32,18 @@ body {
     padding: 4px 8px;
 }
 
-#header .login {
+#main-header .login {
     text-align: center;
     font-weight: 600;
     margin: auto 0px;
     text-decoration: none;
 }
 
-#header .login:hover {
+#main-header .login:hover {
     color: #ffb0bd;
 }
 
-#header .slash {
+#main-header .slash {
     text-align: center;
 }
 
@@ -67,6 +67,10 @@ body {
 
 #nav .nav-inner .nav-link:hover {
     background-color: #fad8de;
+}
+
+#nav .nav-inner.flex-end {
+    justify-content: flex-end;
 }
 
 #slider .slider-img {
@@ -205,6 +209,34 @@ body {
 #content .pagination .page-link.active {
     background-color: #ffb0bd;
     color: #fff;
+}
+
+#product .product-image {
+    max-width: 100%;
+}
+
+#product .breadcrumb a {
+    text-decoration: none;
+    margin: 0 4px;
+    padding: 16px 0;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#product .breadcrumb a:hover {
+    color: #ffb0bd;
+}
+
+#product .breadcrumb a.active {
+    color: #ffb0bd;
+}
+
+#product .title {
+    margin-top: 0;
+}
+
+#product .price {
+    font-size: 32px;
 }
 
 #footer {
