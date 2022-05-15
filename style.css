@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    color: #555;
 }
 
 html {
@@ -34,7 +35,6 @@ body {
 #header .login {
     text-align: center;
     font-weight: 600;
-    color: #000;
     margin: auto 0px;
     text-decoration: none;
 }
@@ -63,7 +63,6 @@ body {
     line-height: 40px;
     height: 100%;
     text-decoration: none;
-    color: #000;
 }
 
 #nav .nav-inner .nav-link:hover {
@@ -76,6 +75,37 @@ body {
 
 #slider img {
     max-width: 100%;
+}
+
+#content .big-title {}
+
+#left-bar ul {
+    list-style: none;
+}
+
+#left-bar ul * {
+    display: block;
+    text-decoration: none;
+}
+
+#left-bar ul .title-list {
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+#left-bar ul a {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+#left-bar ul a:hover {
+    background-color: rgb(243, 242, 242);
+}
+
+#left-bar .title-list {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #content .item {
@@ -135,7 +165,6 @@ body {
 #content .item .title {
     margin-top: 8px;
     text-decoration: none;
-    color: #000;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -151,6 +180,33 @@ body {
 #content .item .price {
     margin-top: 16px;
     font-weight: 600;
+}
+
+#content .pagination {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+}
+
+#content .pagination .page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid #eee;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#content .pagination .page-link:hover {
+    background-color: rgb(243, 242, 242);
+}
+
+#content .pagination .page-link.active {
+    background-color: #ffb0bd;
+    color: #fff;
 }
 
 #footer {
@@ -176,7 +232,7 @@ body {
     text-align: center;
 }
 
-#footer a {
+#footer * {
     text-decoration: none;
     color: #fff;
 }
@@ -201,7 +257,6 @@ body {
     border-radius: 0.35rem;
     display: block;
     margin: 0 auto 20px;
-    color: #000;
 }
 
 .btn-pink {
