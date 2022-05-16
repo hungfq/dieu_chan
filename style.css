@@ -31,14 +31,26 @@ body {
     height: 60px;
 }
 
-#main-header input {
-    width: 100%;
+#main-header .main-input {
+    width: 99%;
     overflow: hidden;
     border: 2px solid #ffb0bd;
     line-height: 30px;
     border-radius: 8px;
     font-size: 14px;
     padding: 4px 8px;
+    padding-right: 50px;
+}
+
+#main-header .btn-search {
+    cursor: pointer;
+    width: 50px;
+    line-height: 30px;
+    border: 2px solid #ffb0bd;
+    padding: 4px 8px;
+    margin-left: -50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 #main-header .login {
