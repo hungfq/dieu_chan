@@ -12,7 +12,7 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
-html {
+html * {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -336,11 +336,40 @@ body {
 }
 
 #footer ul {
-    margin: 0 auto;
+    margin: 0;
 }
 
 #information p {
     text-align: justify;
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+    margin: 4px 0;
+    font-size: 16px;
+}
+
+#contact label {
+    display: block;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid#f39ba9;
+}
+
+#contact textarea {
+    height: 100px;
+}
+
+#contact .btn-contact {
+    font-size: 16px;
+    width: 100%;
 }
 
 
