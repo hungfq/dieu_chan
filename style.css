@@ -365,6 +365,7 @@ body {
 
 #contact textarea {
     height: 100px;
+    resize: vertical;
 }
 
 #contact .btn-contact {
